@@ -6,7 +6,7 @@ makeCacheMatrix. If the inverse has already been calculated (and m
 has not changed), then the cachesolve function retrieves the inverse 
 from the cache.
 
-makeCacheMatrix <- function(x = numeric()){  ## The makeCacheMatrix 
+makeCacheMatrix <- function(x = matrix()){  ## The makeCacheMatrix 
                 ## function creates a special "matrix" object (m) that can cache its 
                 ## inverse.        
         m <- NULL
